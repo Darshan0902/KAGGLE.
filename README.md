@@ -30,7 +30,7 @@ Mean Squared Error (MSE)
 The average squared difference between the estimated values and the actual value. MSE is a risk function, corresponding to the expected value of the squared error loss. The fact that MSE is almost always strictly positive (and not zero) is because of randomness or because the estimator does not account for information that could produce a more accurate estimate.
 ```
 
-N2 |Titans in graphs |Exploring the Time Series : 
+# N2 |Titans in graphs |Exploring the Time Series : 
 
 https://www.kaggle.com/code/darshanprabhu09/n2-titans-in-graphs-exploring-the-time-series/notebook
 
