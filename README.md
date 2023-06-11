@@ -23,12 +23,12 @@ is its corresponding prediction.
 Note: RMSE is NOT scale invariant and hence comparison of models using this measure is affected by the scale of the data. 
 For this reason, RMSE is commonly used over standardized data.
 ```
-Mean Absolute Error (MAE)
-:
+Mean Absolute Error (MAE):
 ```
 In the context of machine learning, absolute error refers to the magnitude of difference between the prediction of an 
 observation and the true value of that observation. MAE takes the average of absolute errors for a group of predictions 
-and observations as a measurement of the magnitude of errors for the entire group. MAE can also be referred as L1 loss function.
+and observations as a measurement of the magnitude of errors for the entire group. MAE can also be referred as L1 
+(loss function).
 ```
 Mean Squared Error (MSE)
 ```
