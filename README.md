@@ -1,4 +1,4 @@
-# KAGGLE.
+# **KAGGLE**.
 All or most of projects I have uploaded on Kaggle are gonna be here.
 ..
  # N1 | Cracking the Code of Accuracy| Unveiling MSE , MAE , RMSE .ipynb 
