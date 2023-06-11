@@ -40,6 +40,11 @@ What sets time series data apart from other data is that the analysis can show h
 
 Time series analysis typically requires a large number of data points to ensure consistency and reliability. An extensive data set ensures you have a representative sample size and that analysis can cut through noisy data. It also ensures that any trends or patterns discovered are not outliers and can account for seasonal variance. Additionally, time series data can be used for forecasting—predicting future data based on historical data.
 
+# N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
+
+
+Feature engineering is the process where 
+
 
 
 
