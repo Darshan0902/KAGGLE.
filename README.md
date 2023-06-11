@@ -43,7 +43,9 @@ Time series analysis typically requires a large number of data points to ensure 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
 
 
-Feature engineering is the process where 
+Feature engineering is the process where one can make changes in their particular data to be used , By reducing or removing the unwanted data in their dataset this process is sometimes also know as "DIMENSIONALITY REDUCTION". 
+ Dimensionality reduction is used to reduce the number of dimensions or features in a particular dataframe so as a result our model may not have to face OVERFITTING of data . There contains various compononents for feature 
+ engineering they are as follows : 
 
 
 
