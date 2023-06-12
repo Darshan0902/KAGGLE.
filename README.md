@@ -74,6 +74,8 @@ created using Python version 3.9.2 .
 
 ```
 
+To know more about this module refer : https://pypi.org/project/beautifulsoup4/
+
 
 -  Libraries and modules and how to install them :
 
@@ -87,8 +89,8 @@ use the syntax below :
 
 
 ```
+
  pip install beautifulsoup4
-To know more about this module refer : https://pypi.org/project/beautifulsoup4/
 
 ```
 
