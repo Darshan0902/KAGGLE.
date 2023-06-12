@@ -65,6 +65,10 @@ Web scraping is the process of extracting data from websites through either API 
 
 
 
+https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug-chemistry
+
+
+
 
 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
