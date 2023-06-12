@@ -159,6 +159,8 @@ Feature engineering is the process where one can make changes in their particula
 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
 
+https://www.kaggle.com/code/darshanprabhu09/n11-feature-engineering-pca-dimensions
+
 
 Feature engineering is the process where one can make changes in their particular data to be used , By reducing or removing the unwanted data in their dataset this process is sometimes also know as "DIMENSIONALITY REDUCTION". 
  Dimensionality reduction is used to reduce the number of dimensions or features in a particular dataframe so as a result our model may not have to face OVERFITTING of data . There contains various compononents for feature 
