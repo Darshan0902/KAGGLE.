@@ -98,6 +98,11 @@ use the syntax below :
 https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug-chemistry
 
 
+# N8|Kernels Unveil the Future of Drug | CHEMISTRY. | Version 4 : 
+
+
+
+
 
 
 
