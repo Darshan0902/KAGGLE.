@@ -62,6 +62,8 @@ https://www.kaggle.com/code/darshanprabhu09/n3-webscraping-wonders-web-based-dat
 
 Web scraping is the process of extracting data from websites through either API requests or the Parsing oh HTML files using BeautifulSoup4 and sometimes even through a HTML parser :D . I hope this helps you as you get the idea of extracing data through the Websites. 
 
+WEB SCRAPING : 
+Before we jump into the code lets know a little about Webscraping and how it can be useful for the purpose of data Analysis. Being in the Field of Data analysts , I always wondered whether we needed to have data in our local PC to form operations like alterations , Removing inconsistencies , Gaps and Redundancies in our data , Happens to be that there is a concept known as "WEBSCRAPING" . Do go through the small Snippet of code I have created using Python version 3.9.2 .
 
 
 
