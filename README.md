@@ -53,6 +53,21 @@ data points as well as the final results. It provides an additional source of in
 Time series analysis typically requires a large number of data points to ensure consistency and reliability. An extensive data set ensures you have a representative sample size and that analysis can cut through noisy 
 data. It also ensures that any trends or patterns discovered are not outliers and can account for seasonal variance. Additionally, time series data can be used for forecasting—predicting future data based on historical data.
 
+
+# N3|Webscraping Wonders|Web based data extraction 
+
+
+https://www.kaggle.com/code/darshanprabhu09/n3-webscraping-wonders-web-based-data-extraction
+
+
+Web scraping is the process of extracting data from websites through either API requests or the Parsing oh HTML files using BeautifulSoup4 and sometimes even through a HTML parser :D . I hope this helps you as you get the idea of extracing data through the Websites. 
+
+
+
+https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug-chemistry
+
+
+
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
 
 
