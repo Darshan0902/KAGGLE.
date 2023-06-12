@@ -127,6 +127,32 @@ Count: This column represents the count or frequency of compounds falling within
 
 
 
+# N9|Feature Engineering|PCA|DIMENSION-REDUCTION : 
+
+
+
+Feature engineering is the process where one can make changes in their particular data to be used , By reducing or removing the unwanted data in their dataset this process is sometimes also know as "DIMENSIONALITY REDUCTION". 
+ Dimensionality reduction is used to reduce the number of dimensions or features in a particular dataframe so as a result our model may not have to face OVERFITTING of data . There contains various compononents for feature 
+ engineering they are as follows : 
+
+
+1. Principal component analysis (PCA) :
+```
+      Principal component analysis (PCA) is a popular technique for analyzing large datasets containing a high
+      number of dimensions/features per observation, increasing the interpretability of data while preserving
+      the maximum amount of information, and enabling the visualization of multidimensional data.
+
+
+     PCA is a statistical technique for reducing the dimensionality of a dataset. This is accomplished by 
+     linearly transforming the data into a new coordinate system where (most of) the variation in the data can be 
+     described with fewer dimensions than the initial data. Many studies use the first two principal components in 
+     order to plot the data in two dimensions and to visually identify clusters of closely related
+     data points. Principal component analysis has applications in many fields such as population 
+     genetics, microbiome studies, and atmospheric science.
+```
+
+
+
 
 
 
