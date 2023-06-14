@@ -209,13 +209,14 @@ features onto a lower-dimensional space while preserving as much of the variance
 
 5. Principal Component Analysis
 
+![image](https://github.com/Darshan0902/KAGGLE./assets/77969007/5581e55a-f44d-4369-8a38-516e841df775)
+
 
 ```
 This method was introduced by Karl Pearson. It works on the condition that while the data
 in a higher dimensional space is mapped to data in a lower dimension space, the variance 
 of the data in the lower dimensional space should be maximum.
 
-![image](https://github.com/Darshan0902/KAGGLE./assets/77969007/5581e55a-f44d-4369-8a38-516e841df775)
 
 
 It involves the following steps:
@@ -307,13 +308,14 @@ features onto a lower-dimensional space while preserving as much of the variance
 
 5. Principal Component Analysis
 
+![image](https://github.com/Darshan0902/KAGGLE./assets/77969007/5581e55a-f44d-4369-8a38-516e841df775)
+
 
 ```
 This method was introduced by Karl Pearson. It works on the condition that while the data
 in a higher dimensional space is mapped to data in a lower dimension space, the variance 
 of the data in the lower dimensional space should be maximum.
 
-![image](https://github.com/Darshan0902/KAGGLE./assets/77969007/5581e55a-f44d-4369-8a38-516e841df775)
 
 
 It involves the following steps:
