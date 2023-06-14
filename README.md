@@ -10,34 +10,41 @@ I am here to announce and ask for your reviews as I share my First and foremost 
 
 RMSE (Root mean squared error)
 ```
-Root mean square error or root mean square deviation is one of the most commonly used measures for evaluating the quality of 
-predictions. It shows how far predictions fall from measured true values using Euclidean distance.
+Root mean square error or root mean square deviation is one of the most commonly used measures 
+for evaluating the quality of predictions. It shows how far predictions fall from measured
+true values using Euclidean distance.
 
-To compute RMSE, calculate the residual (difference between prediction and truth) for each data point, compute the norm of 
-residual for each data point, compute the mean of residuals and take the square root of that mean.RMSE is commonly used in 
-supervised learning applications,as RMSE uses and needs true measurements at each predicted data point.
+To compute RMSE, calculate the residual (difference between prediction and truth) for each
+data point, compute the norm of residual for each data point, compute the mean of residuals 
+and take the square root of that mean.RMSE is commonly used in supervised learning
+applications,as RMSE uses and needs true measurements at each predicted data point.
 
-Root mean square error can be expressed as where N is the number of data points, y(i) is the i-th measurement, and y ̂(i) 
-is its corresponding prediction.
+Root mean square error can be expressed as where N is the number of data points, y(i) 
+is the i-th measurement, and y ̂(i) .Is its corresponding prediction.
 
-Note: RMSE is NOT scale invariant and hence comparison of models using this measure is affected by the scale of the data. 
-For this reason, RMSE is commonly used over standardized data.
+Note: RMSE is NOT scale invariant and hence comparison of models using this 
+measure is affected by the scale of the data. For this reason, RMSE is
+commonly used over standardized data.
 ```
 Mean Absolute Error (MAE):
 ```
-In the context of machine learning, absolute error refers to the magnitude of difference between the prediction of an 
-observation and the true value of that observation. MAE takes the average of absolute errors for a group of predictions 
-and observations as a measurement of the magnitude of errors for the entire group. MAE can also be referred as L1 
+In the context of machine learning, absolute error refers to the magnitude
+of difference between the prediction of an observation and the true value 
+of that observation. MAE takes the average of absolute errors for a group 
+of predictions and observations as a measurement of the magnitude of 
+errors for the entire group. MAE can also be referred as L1 
 (loss function).
+
 ```
 Mean Squared Error (MSE)
 ```
 :
 
-The average squared difference between the estimated values and the actual value. MSE is a risk function, 
-corresponding to the expected value of the squared error loss. The fact that MSE is almost always strictly positive 
-(and not zero) is because of randomness or because the estimator does not account for information that could 
-produce a more accurate estimate.
+The average squared difference between the estimated values and the actual
+value. MSE is a risk function, corresponding to the expected value of the 
+squared error loss. The fact that MSE is almost always strictly positive 
+(and not zero) is because of randomness or because the estimator does not
+account for information that could produce a more accurate estimate.
 ```
 
 # N2 |Titans in graphs |Exploring the Time Series : 
@@ -66,11 +73,13 @@ the idea of extracing data through the Websites.
 - WEB SCRAPING : 
 
 ```
-Before we jump into the code lets know a little about Webscraping and how it can be useful for the purpose of 
-data Analysis. Being in the Field of Data analysts , I always wondered whether we needed to have data in our 
-local PC to form operations like alterations , Removing inconsistencies , Gaps and Redundancies in our data , 
-Happens to be that there is a concept known as "WEBSCRAPING" . Do go through the small Snippet of code I have 
-created using Python version 3.9.2 .
+Before we jump into the code lets know a little about Webscraping and how 
+it can be useful for the purpose of data Analysis. Being in the Field of 
+Data analysts , I always wondered whether we needed to have data in our 
+local PC to form operations like alterations , Removing inconsistencies, 
+Gaps and Redundancies in our data , Happens to be that there is a 
+concept known as "WEBSCRAPING" . Do go through the small Snippet of 
+code I have created using Python version 3.9.2 .
 
 ```
 
@@ -80,9 +89,11 @@ To know more about this module refer : https://pypi.org/project/beautifulsoup4/
 -  Libraries and modules and how to install them :
 
 ```
-1.) beautifulsoup4 4.12.2 : Beautiful Soup is a library that makes it easy to scrape information from web pages.
-It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse 
-tree. It helps us basically to read the HTML files we have on any particular websites. To install this library
+1.) beautifulsoup4 4.12.2 : Beautiful Soup is a library that makes it
+easy to scrape information from web pages.It sits atop an HTML or 
+XML parser, providing Pythonic idioms for iterating, searching,
+and modifying the parse tree. It helps us basically to read the HTML
+files we have on any particular websites. To install this library
 use the syntax below :
 
 ```
