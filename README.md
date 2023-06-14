@@ -195,6 +195,19 @@ features, and embedded methods combine feature selection with the model training
 ```
 
 
+4. Feature Extraction:
+
+```
+Feature extraction involves creating new features by combining or transforming the original 
+features. The goal is to create a set of features that captures the essence of the original 
+data in a lower-dimensional space. There are several methods for feature extraction, including 
+principal component analysis (PCA), linear discriminant analysis (LDA), and t-distributed 
+stochastic neighbor embedding (t-SNE). PCA is a popular technique that projects the original
+features onto a lower-dimensional space while preserving as much of the variance as possible.
+
+```
+
+
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
 
 https://www.kaggle.com/code/darshanprabhu09/n11-feature-engineering-pca-dimensions
@@ -254,5 +267,19 @@ methods. Filter methods rank the features based on their relevance to the target
 variable, wrapper methods use the model performance as the criteria for selecting 
 features, and embedded methods combine feature selection with the model training
 process.
+
+```
+
+
+
+4. Feature Extraction:
+
+```
+Feature extraction involves creating new features by combining or transforming the original 
+features. The goal is to create a set of features that captures the essence of the original 
+data in a lower-dimensional space. There are several methods for feature extraction, including 
+principal component analysis (PCA), linear discriminant analysis (LDA), and t-distributed 
+stochastic neighbor embedding (t-SNE). PCA is a popular technique that projects the original
+features onto a lower-dimensional space while preserving as much of the variance as possible.
 
 ```
