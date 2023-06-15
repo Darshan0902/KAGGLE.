@@ -155,10 +155,10 @@ Feature engineering is the process where one can make changes in their particula
 
 
      PCA is a statistical technique for reducing the dimensionality of a dataset. This is accomplished by 
-     linearly transforming the data into a new coordinate system where (most of) the variation in the data can be 
-     described with fewer dimensions than the initial data. Many studies use the first two principal components in 
-     order to plot the data in two dimensions and to visually identify clusters of closely related
-     data points. Principal component analysis has applications in many fields such as population 
+     linearly transforming the data into a new coordinate system where (most of) the variation in the data 
+     can be described with fewer dimensions than the initial data. Many studies use the first two principal
+     components in order to plot the data in two dimensions and to visually identify clusters of closely
+     related data points. Principal component analysis has applications in many fields such as population 
      genetics, microbiome studies, and atmospheric science.
 ```
 
@@ -166,15 +166,16 @@ Feature engineering is the process where one can make changes in their particula
 2. Dimensionality Reduction :
 
 ```
-Dimensionality reduction is a technique used to reduce the number of features in a dataset while retaining as much
-of the important information as possible. In other words, it is a process of transforming high-dimensional data 
-into a lower-dimensional space that still preserves the essence of the original data.
+Dimensionality reduction is a technique used to reduce the number of features in a dataset while retaining
+as much of the important information as possible. In other words, it is a process of transforming 
+high-dimensional data into a lower-dimensional space that still preserves the essence of the original data.
 
-In machine learning, high-dimensional data refers to data with a large number of features or variables. The curse
-of dimensionality is a common problem in machine learning, where the performance of the model deteriorates as the
-number of features increases. This is because the complexity of the model increases with the number of features, 
-and it becomes more difficult to find a good solution. In addition, high-dimensional data can also lead to 
-overfitting, where the model fits the training data too closely and does not generalize well to new data.
+In machine learning, high-dimensional data refers to data with a large number of features or variables.
+The curse of dimensionality is a common problem in machine learning, where the performance of the 
+model deteriorates as the number of features increases. This is because the complexity of the model 
+increases with the number of features, and it becomes more difficult to find a good solution. In 
+addition, high-dimensional data can also lead to overfitting, where the model fits the training
+data too closely and does not generalize well to new data.
 
 Dimensionality reduction can help to mitigate these problems by reducing the complexity of the model and 
 improving its generalization performance. There are two main approaches to dimensionality reduction:
@@ -242,16 +243,19 @@ Feature engineering is the process where one can make changes in their particula
 
 1. Principal component analysis (PCA) :
 ```
-      Principal component analysis (PCA) is a popular technique for analyzing large datasets containing a high
-      number of dimensions/features per observation, increasing the interpretability of data while preserving
-      the maximum amount of information, and enabling the visualization of multidimensional data.
+      Principal component analysis (PCA) is a popular technique for analyzing large 
+      datasets containing a high number of dimensions/features per observation, 
+      increasing the interpretability of data while preserving the maximum amount 
+      of information, and enabling the visualization of multidimensional data.
 
 
-     PCA is a statistical technique for reducing the dimensionality of a dataset. This is accomplished by 
-     linearly transforming the data into a new coordinate system where (most of) the variation in the data can be 
-     described with fewer dimensions than the initial data. Many studies use the first two principal components in 
-     order to plot the data in two dimensions and to visually identify clusters of closely related
-     data points. Principal component analysis has applications in many fields such as population 
+     PCA is a statistical technique for reducing the dimensionality of a dataset. 
+     This is accomplished by linearly transforming the data into a new coordinate 
+     system where (most of) the variation in the data can be described with fewer 
+     dimensions than the initial data. Many studies use the first two principal
+     components in order to plot the data in two dimensions and to visually 
+     identify clusters of closely related data points. Principal component
+     analysis has applications in many fields such as population 
      genetics, microbiome studies, and atmospheric science.
      
 ```
@@ -259,36 +263,40 @@ Feature engineering is the process where one can make changes in their particula
 2. Dimensionality Reduction :
 
 ```
-Dimensionality reduction is a technique used to reduce the number of features in a dataset while 
-retaining as much of the important information as possible. In other words, it is a process of
-transforming high-dimensional data into a lower-dimensional space that still preserves the 
+Dimensionality reduction is a technique used to reduce the number of features
+in a dataset while retaining as much of the important information as possible. 
+In other words, it is a process of transforming high-dimensional data into a
+lower-dimensional space that still preserves the 
 essence of the original data.
 
-In machine learning, high-dimensional data refers to data with a large number of features 
-or variables. The curse of dimensionality is a common problem in machine learning, where 
-the performance of the model deteriorates as the number of features increases. This is 
-because the complexity of the model increases with the number of features, and it 
-becomes more difficult to find a good solution. In addition, high-dimensional data
-can also lead to overfitting, where the model fits the training data too closely 
+In machine learning, high-dimensional data refers to data with a large number 
+of features or variables. The curse of dimensionality is a common problem in
+machine learning, where the performance of the model deteriorates as the 
+number of features increases. This is because the complexity of the model 
+increases with the number of features, and it becomes more difficult to find 
+a good solution. In addition, high-dimensional datacan also lead to 
+overfitting, where the model fits the training data too closely 
 and does not generalize well to new data.
 
-Dimensionality reduction can help to mitigate these problems by reducing the 
-complexity of the model and improving its generalization performance. There are 
-two main approaches to dimensionality reduction: feature selection and feature extraction.
+Dimensionality reduction can help to mitigate these problems by reducing 
+the complexity of the model and improving its generalization performance. 
+There are two main approaches to dimensionality reduction: feature 
+selection and feature extraction.
 
 ```
 
 3. Feature Selection:
 
 ```
-Feature selection involves selecting a subset of the original features that are most
-relevant to the problem at hand. The goal is to reduce the dimensionality of the 
-dataset while retaining the most important features. There are several methods 
-for feature selection, including filter methods, wrapper methods, and embedded 
-methods. Filter methods rank the features based on their relevance to the target
-variable, wrapper methods use the model performance as the criteria for selecting 
-features, and embedded methods combine feature selection with the model training
-process.
+Feature selection involves selecting a subset of the original features
+that are most relevant to the problem at hand. The goal is to reduce
+the dimensionality of the dataset while retaining the most important
+features. There are several methods for feature selection, including
+filter methods, wrapper methods, and embedded methods. Filter methods
+rank the features based on their relevance to the target variable, 
+wrapper methods use the model performance as the criteria for selecting 
+features, and embedded methods combine feature selection with the model
+training process.
 
 ```
 
@@ -297,12 +305,14 @@ process.
 4. Feature Extraction:
 
 ```
-Feature extraction involves creating new features by combining or transforming the original 
-features. The goal is to create a set of features that captures the essence of the original 
-data in a lower-dimensional space. There are several methods for feature extraction, including 
-principal component analysis (PCA), linear discriminant analysis (LDA), and t-distributed 
-stochastic neighbor embedding (t-SNE). PCA is a popular technique that projects the original
-features onto a lower-dimensional space while preserving as much of the variance as possible.
+Feature extraction involves creating new features by combining or transforming
+the original features. The goal is to create a set of features that captures 
+the essence of the original data in a lower-dimensional space. There are 
+several methods for feature extraction, including principal component analysis 
+(PCA), linear discriminant analysis (LDA), and t-distributed stochastic neighbor 
+embedding (t-SNE). PCA is a popular technique that projects the original
+features onto a lower-dimensional space while preserving as much of the 
+variance as possible.
 
 ```
 
@@ -312,9 +322,9 @@ features onto a lower-dimensional space while preserving as much of the variance
 
 
 ```
-This method was introduced by Karl Pearson. It works on the condition that while the data
-in a higher dimensional space is mapped to data in a lower dimension space, the variance 
-of the data in the lower dimensional space should be maximum.
+This method was introduced by Karl Pearson. It works on the condition
+that while the data in a higher dimensional space is mapped to data in 
+a lower dimension space, the variance of the data in the lower dimensional space should be maximum.
 
 
 
