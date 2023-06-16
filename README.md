@@ -122,15 +122,15 @@ https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug
  
  The given data appears to be a tabular representation with several columns. Here is a description of each column:
 
-MolLogP: This column represents the calculated logarithm of the partition coefficient (LogP) for the chemical compounds. LogP is a measure of the compound's lipophilicity or hydrophobicity, indicating its tendency to dissolve in oil or water.
+**MolLogP**: This column represents the calculated logarithm of the partition coefficient (LogP) for the chemical compounds. LogP is a measure of the compound's lipophilicity or hydrophobicity, indicating its tendency to dissolve in oil or water.
 
-MolWt: This column represents the molecular weight of the compounds. Molecular weight is the sum of the atomic weights of all atoms in a molecule and is an important property in determining the physical and chemical characteristics of a compound.
+**MolWt**: This column represents the molecular weight of the compounds. Molecular weight is the sum of the atomic weights of all atoms in a molecule and is an important property in determining the physical and chemical characteristics of a compound.
 
-NumRotatableBonds: This column indicates the number of rotatable bonds in the chemical compounds. Rotatable bonds refer to single bonds that can rotate freely without breaking, and they play a role in the compound's flexibility and conformational changes.
+**NumRotatableBonds**: This column indicates the number of rotatable bonds in the chemical compounds. Rotatable bonds refer to single bonds that can rotate freely without breaking, and they play a role in the compound's flexibility and conformational changes.
 
-AromaticProportion: This column represents the proportion of aromatic atoms present in the compounds. Aromaticity is a property associated with compounds containing conjugated ring systems, such as benzene rings.
+**AromaticProportion**: This column represents the proportion of aromatic atoms present in the compounds. Aromaticity is a property associated with compounds containing conjugated ring systems, such as benzene rings.
 
-logS: This column represents the logarithm of the solubility values for the compounds. Solubility is a measure of how well a compound dissolves in a given solvent.
+**logS**: This column represents the logarithm of the solubility values for the compounds. Solubility is a measure of how well a compound dissolves in a given solvent.
 
 **Label**: This column appears to provide ranges or intervals for the solubility values (logS) or molecular weights (MolWt) in the dataset.
 
