@@ -132,9 +132,9 @@ AromaticProportion: This column represents the proportion of aromatic atoms pres
 
 logS: This column represents the logarithm of the solubility values for the compounds. Solubility is a measure of how well a compound dissolves in a given solvent.
 
-Label: This column appears to provide ranges or intervals for the solubility values (logS) or molecular weights (MolWt) in the dataset.
+**Label**: This column appears to provide ranges or intervals for the solubility values (logS) or molecular weights (MolWt) in the dataset.
 
-Count: This column represents the count or frequency of compounds falling within the respective range or interval specified by the label.
+**Count**: This column represents the count or frequency of compounds falling within the respective range or interval specified by the label.
 
 
 
