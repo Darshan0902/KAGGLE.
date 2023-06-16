@@ -86,7 +86,7 @@ code I have created using Python version 3.9.2 .
 To know more about this module refer : https://pypi.org/project/beautifulsoup4/
 
 
--  Libraries and modules and how to install them :
+-  Libraries and modules and how to install them:
 
 ```
 1.) beautifulsoup4 4.12.2 : Beautiful Soup is a library that makes it
