@@ -327,14 +327,18 @@ that while the data in a higher dimensional space is mapped to data in
 a lower dimension space, the variance of the data in the lower 
 dimensional space should be maximum.
 
+ Principal component analysis (PCA) is a popular technique for analyzing large 
+ datasets containing a high number of dimensions/features per observation, 
+ increasing the interpretability of data while preserving the maximum amount 
+ of information, and enabling the visualization of multidimensional data.
 
 
 It involves the following steps:
 
-Construct the covariance matrix of the data.
-Compute the eigenvectors of this matrix.
-Eigenvectors corresponding to the largest eigenvalues are used to 
-reconstruct a large fraction of variance of the original data.Hence, 
-we are left with a lesser number of eigenvectors, and there might
-have been some data loss in the process. But, the most 
-important variances should be retained by the remaining eigenvectors.
+-Construct the covariance matrix of the data.
+-Compute the eigenvectors of this matrix.
+-Eigenvectors corresponding to the largest eigenvalues are used to 
+-reconstruct a large fraction of variance of the original data.Hence, 
+-we are left with a lesser number of eigenvectors, and there might
+-have been some data loss in the process. But, the most 
+-important variances should be retained by the remaining eigenvectors.
