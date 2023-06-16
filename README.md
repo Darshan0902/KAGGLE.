@@ -336,6 +336,7 @@ dimensional space should be maximum.
 
 It involves the following steps:
 
+```
 -Construct the covariance matrix of the data.
 -Compute the eigenvectors of this matrix.
 -Eigenvectors corresponding to the largest eigenvalues are used to 
@@ -343,3 +344,4 @@ It involves the following steps:
 -we are left with a lesser number of eigenvectors, and there might
 -have been some data loss in the process. But, the most 
 -important variances should be retained by the remaining eigenvectors.
+```
