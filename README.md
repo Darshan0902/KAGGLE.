@@ -331,7 +331,8 @@ dimensional space should be maximum.
  datasets containing a high number of dimensions/features per observation, 
  increasing the interpretability of data while preserving the maximum amount 
  of information, and enabling the visualization of multidimensional data.
-
+ 
+```
 
 It involves the following steps:
 
