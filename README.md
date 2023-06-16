@@ -36,7 +36,7 @@ errors for the entire group. MAE can also be referred as L1
 (loss function).
 
 ```
-Mean Squared Error (MSE)
+Mean Squared Error (MSE) :
 ```
 :
 
