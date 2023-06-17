@@ -367,6 +367,6 @@ and does not generalize well to new data.
 Dimensionality reduction can help to mitigate these problems by reducing 
 the complexity of the model and improving its generalization performance. 
 There are two main approaches to dimensionality reduction: feature 
-selection and feature ex
+selection and feature extra
 
 ```
