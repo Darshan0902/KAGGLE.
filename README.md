@@ -345,3 +345,28 @@ It involves the following steps:
 -have been some data loss in the process. But, the most 
 -important variances should be retained by the remaining eigenvectors.
 ```
+
+2. Dimensionality Reduction :
+
+```
+Dimensionality reduction is a technique used to reduce the number of features
+in a dataset while retaining as much of the important information as possible. 
+In other words, it is a process of transforming high-dimensional data into a
+lower-dimensional space that still preserves the 
+essence of the original data.
+
+In machine learning, high-dimensional data refers to data with a large number 
+of features or variables. The curse of dimensionality is a common problem in
+machine learning, where the performance of the model deteriorates as the 
+number of features increases. This is because the complexity of the model 
+increases with the number of features, and it becomes more difficult to find 
+a good solution. In addition, high-dimensional datacan also lead to 
+overfitting, where the model fits the training data too closely 
+and does not generalize well to new data.
+
+Dimensionality reduction can help to mitigate these problems by reducing 
+the complexity of the model and improving its generalization performance. 
+There are two main approaches to dimensionality reduction: feature 
+selection and feature extraction.
+
+```
