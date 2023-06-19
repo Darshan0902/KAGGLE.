@@ -124,8 +124,10 @@ This Python code retrieves the balance sheet statement for a specified company a
 
 ## Instructions
 
-1. Update the `api_key` variable with your Financial Modeling Prep API key.
-2. Specify the `company` variable with the ticker symbol of the desired company.
+1. Update the `api_key` variable with your Financial Modeling
+   Prep API key.
+2. Specify the `company` variable with the ticker symbol of
+    the desired company.
 3. Define the number of `years` for the analysis.
 4. Run the code.
 
@@ -133,12 +135,17 @@ This Python code retrieves the balance sheet statement for a specified company a
 
 - Total current assets of the specified company.
 - Total current liabilities of the specified company.
-- Cash debt difference (cash and cash equivalents minus total debt) for the specified company.
-- Percentage of intangible assets out of total assets for the specified company.
+- Cash debt difference (cash and cash equivalents minus total
+   debt) for the specified company.
+- Percentage of intangible assets out of total assets for the
+   specified company.
 - Quarterly assets data plotted in a bar chart.
 
 ## Example Output
-
+Total current assets of GOOG: $XXX,XXX,XXX
+Total current liabilities of GOOG: $XXX,XXX,XXX
+Cash debt difference: $XXX,XXX,XXX
+Percentage intangible: XX.XX%
 
 
 # N8|Kernels Unveil the Future of Drug | CHEMISTRY. | Version 4 : 
