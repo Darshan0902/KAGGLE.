@@ -374,3 +374,32 @@ selection and feature extraction.
 
 # N4|Company Assets Analysis|Webscraping|Prediction | Version 9 : 
 
+# Financial Analysis: Balance Sheet and Asset Trends
+
+This Python code retrieves the balance sheet statement for a specified company and performs various financial analyses, including calculating total current assets, total current liabilities, cash debt difference, percentage of intangible assets, and plotting quarterly asset data.
+
+## Prerequisites
+
+- Python 3.x
+- Requests library (`pip install requests`)
+- Matplotlib library (`pip install matplotlib`)
+
+## Instructions
+
+1. Update the `api_key` variable with your Financial Modeling Prep API key.
+2. Specify the `company` variable with the ticker symbol of the desired company.
+3. Define the number of `years` for the analysis.
+4. Run the code.
+
+## Analysis Results
+
+- Total current assets of the specified company.
+- Total current liabilities of the specified company.
+- Cash debt difference (cash and cash equivalents minus total debt) for the specified company.
+- Percentage of intangible assets out of total assets for the specified company.
+- Quarterly assets data plotted in a bar chart.
+
+## Example Output
+
+
+
