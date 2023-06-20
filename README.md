@@ -112,7 +112,7 @@ https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug
 
 # N4|Company Assets Analysis|Webscraping|Prediction | Version 9 : 
 
-# Financial Analysis: Balance Sheet and Asset Trends
+ Financial Analysis: Balance Sheet and Asset Trends
 
 ```
 
@@ -122,7 +122,7 @@ including calculating total current assets, total current
 liabilities, cash debt difference, percentage of intangible 
 assets, and plotting quarterly asset data.
 ```
-## Prerequisites
+ Prerequisites
 ```
 
 - Python 3.x
@@ -130,7 +130,7 @@ assets, and plotting quarterly asset data.
 - Matplotlib library (`pip install matplotlib`)
 ```
 
-## Instructions
+Instructions
 ```
 
 1. Update the `api_key` variable with your Financial Modeling
@@ -141,7 +141,7 @@ assets, and plotting quarterly asset data.
 4. Run the code.
 ```
 
-## Analysis Results
+ Analysis Results
 ```
 
 - Total current assets of the specified company.
@@ -154,7 +154,7 @@ assets, and plotting quarterly asset data.
 ```
 
 
-## Example Output
+ Example Output
 ```
 Total current assets of GOOG: $XXX,XXX,XXX
 Total current liabilities of GOOG: $XXX,XXX,XXX
