@@ -160,6 +160,9 @@ Total current assets of GOOG: $XXX,XXX,XXX
 Total current liabilities of GOOG: $XXX,XXX,XXX
 Cash debt difference: $XXX,XXX,XXX
 Percentage intangible: XX.XX%
+
+
+
 ```
 
 # N8|Kernels Unveil the Future of Drug | CHEMISTRY. | Version 4 : 
