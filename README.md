@@ -112,6 +112,8 @@ https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug
 
 # N4|Company Assets Analysis|Webscraping|Prediction | Version 9 : 
 
+https://www.kaggle.com/code/darshanprabhu09/n4-financial-analysis-data-extraction-from-website
+
  Financial Analysis: Balance Sheet and Asset Trends
 
 ```
@@ -167,6 +169,8 @@ Percentage intangible: XX.XX%
 
 
 # N6|Pandas Playground|EDA|Constant Experimentation | Version 7 : 
+
+https://www.kaggle.com/code/darshanprabhu09/n6-pandas-playground-eda-constant-experimentation
 
 
 ---
