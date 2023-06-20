@@ -459,6 +459,7 @@ https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug
 
 # N9|Feature Engineering|PCA|DIMENSION-REDUCTION : 
 
+https://www.kaggle.com/code/darshanprabhu09/n9-feature-engineering-pca-dimension-reduction
 
 
 Feature engineering is the process where one can make changes in their particular data to be used , By reducing or removing the unwanted data in their dataset this process is sometimes also know as "DIMENSIONALITY REDUCTION". 
