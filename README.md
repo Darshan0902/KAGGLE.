@@ -165,6 +165,269 @@ Percentage intangible: XX.XX%
 
 ```
 
+
+# N6|Pandas Playground|EDA|Constant Experimentation | Version 7 : 
+
+
+---
+
+**1. INSTALLING PANDAS**
+
+To install pandas, you can use the following command:
+
+```python
+pip install pandas
+```
+
+Make sure you have pip installed on your system before running the command.
+
+---
+
+**2. READING THE FILE**
+
+To read a file using pandas, you can use the `read_csv()` function. Here's an example:
+
+```python
+import pandas as pd
+
+df = pd.read_csv('your_file.csv')
+```
+
+Replace `'your_file.csv'` with the actual file path or name.
+
+---
+
+**3. HEAD()**
+
+The `head()` function is used to display the first few rows of the DataFrame. By default, it shows the first 5 rows. Example:
+
+```python
+df.head()
+```
+
+---
+
+**4. TAIL()**
+
+The `tail()` function is used to display the last few rows of the DataFrame. By default, it shows the last 5 rows. Example:
+
+```python
+df.tail()
+```
+
+---
+
+**5. DTYPES**
+
+The `dtypes` attribute is used to display the data types of each column in the DataFrame. Example:
+
+```python
+df.dtypes
+```
+
+---
+
+**6. PRINTING COLUMNS WITH PARTICULAR DTYPES**
+
+**6.1 - PRINT ROWS AND COLUMNS HAVING THE DATATYPE AS "OBJECT"**
+
+To print rows and columns having the data type as "object", you can use the following code:
+
+```python
+object_columns = df.select_dtypes(include=['object'])
+print(object_columns)
+```
+
+---
+
+**6.2 - PRINT ROWS AND COLUMNS HAVING THE DATATYPE AS "int64"**
+
+To print rows and columns having the data type as "int64", you can use the following code:
+
+```python
+int_columns = df.select_dtypes(include=['int64'])
+print(int_columns)
+```
+
+---
+
+**7. RETRIEVING COLUMNS HEADERS**
+
+**7.1 - INT64**
+
+To retrieve column headers with the data type "int64", you can use the following code:
+
+```python
+int_columns = df.select_dtypes(include=['int64'])
+headers = int_columns.columns
+print(headers)
+```
+
+---
+
+**7.2 - OBJECT**
+
+To retrieve column headers with the data type "object", you can use the following code:
+
+```python
+object_columns = df.select_dtypes(include=['object'])
+headers = object_columns.columns
+print(headers)
+```
+
+---
+
+**8. FORMATTING DATATYPES**
+
+To format the data types of columns in the DataFrame, you can use the `astype()` function. Example:
+
+```python
+df['column_name'] = df['column_name'].astype('new_data_type')
+```
+
+Replace `'column_name'` with the actual column name and `'new_data_type'` with the desired data type.
+
+---
+
+**9. ROUNDING OF THE DATA**
+
+To round the values in a column, you can use the `round()` function. Example:
+
+```python
+df['column_name'] = df['column_name'].round(decimals=2)
+```
+
+Replace `'column_name'` with the actual column name and adjust the `decimals` parameter as per your requirement.
+
+---
+
+**10. BEGINNING & END OF DATA**
+
+To view the beginning and end of the DataFrame, you can use the `head()` and `tail()` functions together. Example:
+
+```python
+print("Beginning of Data:")
+print(df.head())
+
+print("End of Data:")
+print(df.tail())
+```
+
+---
+
+**11. EXPLORATORY DATA ANALYSIS**
+
+**11.1 - Description about index of data**
+
+To get a description of the index of the DataFrame, you can use the `index
+
+` attribute. Example:
+
+```python
+print(df.index)
+```
+
+---
+
+**11.2 - Statistical description of DataFrame**
+
+To get a statistical description of the DataFrame, you can use the `describe()` function. Example:
+
+```python
+print(df.describe())
+```
+
+---
+
+**11.3 - TO GET TOTAL NUMBER OF ROWS**
+
+To get the total number of rows in the DataFrame, you can use the `shape` attribute. Example:
+
+```python
+total_rows = df.shape[0]
+print(total_rows)
+```
+
+---
+
+**12. GROUPBY()**
+
+The `groupby()` function is used to group data based on one or more columns. Example:
+
+```python
+grouped_data = df.groupby('column_name')
+```
+
+Replace `'column_name'` with the actual column name you want to group by.
+
+---
+
+**13. CROSSTAB()**
+
+The `crosstab()` function is used to compute a cross-tabulation of two or more factors. Example:
+
+```python
+cross_tab = pd.crosstab(df['column1'], df['column2'])
+print(cross_tab)
+```
+
+Replace `'column1'` and `'column2'` with the actual column names you want to create the cross-tabulation for.
+
+---
+
+**14. WHERE()**
+
+The `where()` function is used to filter rows based on a condition. Example:
+
+```python
+filtered_data = df.where(df['column_name'] > 0)
+print(filtered_data)
+```
+
+Replace `'column_name'` with the actual column name and adjust the condition as per your requirement.
+
+---
+
+**15. nUNIQUE()**
+
+The `nunique()` function is used to count the number of unique values in each column. Example:
+
+```python
+unique_counts = df.nunique()
+print(unique_counts)
+```
+
+---
+
+**16. VALUE_COUNTS()**
+
+The `value_counts()` function is used to count the occurrences of each unique value in a column. Example:
+
+```python
+value_counts = df['column_name'].value_counts()
+print(value_counts)
+```
+
+Replace `'column_name'` with the actual column name.
+
+---
+
+**17. CUT()**
+
+The `cut()` function is used to segment and bin continuous data into discrete intervals. Example:
+
+```python
+bins = [0, 50, 100, 150]
+labels = ['Low', 'Medium', 'High']
+df['bin_column'] = pd.cut(df['column_name'], bins=bins, labels=labels)
+```
+
+Replace `'column_name'` with the actual column name and adjust the `bins` and `labels` parameters as per your requirement.
+
+---
+
+
+
 # N8|Kernels Unveil the Future of Drug | CHEMISTRY. | Version 4 : 
 
 https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug-chemistry
