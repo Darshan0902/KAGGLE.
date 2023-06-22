@@ -110,7 +110,7 @@ https://www.kaggle.com/code/darshanprabhu09/n8-kernels-unveil-the-future-of-drug
 
 
 
-# N4|Company Assets Analysis|Webscraping|Prediction | Version 9 : 
+# N4|Assets Insights model|Webscraping|Time series.
 
 https://www.kaggle.com/code/darshanprabhu09/n4-financial-analysis-data-extraction-from-website
 
