@@ -696,9 +696,8 @@ selection and feature extraction.
 ```
 
 
-# N12| 
+# N12| IMAGE CLASSIFIER | KERAS |AUGMENTATION | ML .
 
-# Cat and Dog Image Classification
 
 This project demonstrates image classification of cats and dogs using the Xception model. The code performs the following steps:
 
