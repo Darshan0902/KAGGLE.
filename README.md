@@ -725,12 +725,12 @@ This project demonstrates image classification of cats and dogs using the Xcepti
    - Converts the predicted values into cat and dog classes.
    - Evaluates the accuracy of the model by comparing the predicted labels with the true labels.
 
-## Requirements
+Requirements
 - Python (3.7 or later)
 - TensorFlow (2.5.0 or later)
 - Keras (2.5.0 or later)
 
-## Usage
+Usage
 1. Set up the project environment and install the required dependencies.
 2. Prepare the data by executing the data preparation code.
 3. Build and train the model using the provided code.
@@ -738,7 +738,7 @@ This project demonstrates image classification of cats and dogs using the Xcepti
 
 For detailed code implementation and usage instructions, refer to the code comments and documentation.
 
-## License
+License
 This project is licensed under the [MIT License](LICENSE).
 
 
