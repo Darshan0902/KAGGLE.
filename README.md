@@ -1,7 +1,7 @@
 # **KAGGLE**.
 All or most of projects I have uploaded on Kaggle are gonna be here.
 ..
-# N1 | Cracking the Code of Accuracy| Unveiling MSE , MAE , RMSE .ipynb 
+# N1 | Cracking the Code of Accuracy| Unveiling MSE , MAE , RMSE :
 
  
  https://www.kaggle.com/code/darshanprabhu09/mse-mae-rmse-for-the-housing-dataset
