@@ -167,6 +167,68 @@ Percentage intangible: XX.XX%
 
 ```
 
+# N5|Data Visualization using Graphs| Visual methods | Version 5 :
+README
+
+Data Visualization Toolkit
+=========================
+
+This repository contains a collection of data visualization techniques implemented in Python. Each visualization technique is demonstrated with example code snippets and sample datasets.
+
+List of Visualization Techniques
+-------------------------------
+
+1. Histogram: Visualize the distribution of a continuous variable using bars.
+2. Bar Chart: Compare categorical data using rectangular bars.
+3. Pie Chart: Represent data as slices of a circular pie.
+4. Box Plot: Display the distribution of a dataset using quartiles and outliers.
+5. Scatterplot: Plot individual data points in a two-dimensional space.
+6. Line Plot: Visualize the trend of a variable over time or a continuous scale.
+7. Horizontal Bar Chart: Compare categorical data using horizontal bars.
+8. Violin Plot: Combine a box plot and a kernel density plot to represent the distribution of a variable.
+9. Word Cloud: Create a visual representation of text data, where the size of each word indicates its frequency.
+10. Heatmap: Display data in a matrix using color-coded cells to represent values.
+11. 3D Scatter Plot: Plot three-dimensional data points in a three-dimensional space.
+12. Stacked Area Chart: Visualize the cumulative contribution of multiple variables over time or a continuous scale.
+13. Radar Chart: Display multivariate data on a polar coordinate system using polygonal shapes.
+14. Tree Map: Represent hierarchical data as nested rectangles.
+15. Polar Plot: Plot data in a circular or polar coordinate system.
+16. Stream Plot: Visualize the flow or movement of particles in a vector field.
+17. Network Graph: Display interconnected nodes and relationships in a network.
+18. Sankey Plot: Illustrate the flow or transfer of entities through a system using flowing lines.
+19. Hexbin Plot: Create a two-dimensional histogram using hexagonal bins to represent data density.
+20. Polar Contour Plot: Combine the polar coordinate system with contour lines to visualize three-dimensional data.
+
+Getting Started
+---------------
+
+1. Clone the repository: `git clone <repository-url>`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Explore the code and examples for each visualization technique.
+4. Customize and adapt the code for your specific data and visualization needs.
+
+Contributing
+------------
+
+Contributions to this repository are welcome! If you have any new visualization techniques to add or improvements to the existing ones, feel free to submit a pull request.
+
+License
+-------
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+Acknowledgments
+---------------
+
+The examples and code snippets in this repository are inspired by various online tutorials, documentation, and community contributions. We acknowledge the original authors and contributors for their valuable work in the field of data visualization.
+
+Contact
+-------
+
+For any questions or inquiries, please contact [email protected]
+
+Happy visualizing!
+
 
 # N6|Pandas Playground|EDA|Constant Experimentation | Version 7 : 
 
