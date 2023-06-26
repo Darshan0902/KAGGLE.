@@ -171,13 +171,13 @@ Percentage intangible: XX.XX%
 
 https://www.kaggle.com/code/darshanprabhu09/n5-data-visualization-cookbook-matplotlib-seaborn
 
-Data Visualization Toolkit
-=========================
+ Data Visualization Toolkit
+ 
 
 This repository contains a collection of data visualization techniques implemented in Python. Each visualization technique is demonstrated with example code snippets and sample datasets.
 
 List of Visualization Techniques
--------------------------------
+```
 
 1. Histogram: Visualize the distribution of a continuous variable using bars.
 2. Bar Chart: Compare categorical data using rectangular bars.
@@ -199,9 +199,9 @@ List of Visualization Techniques
 18. Sankey Plot: Illustrate the flow or transfer of entities through a system using flowing lines.
 19. Hexbin Plot: Create a two-dimensional histogram using hexagonal bins to represent data density.
 20. Polar Contour Plot: Combine the polar coordinate system with contour lines to visualize three-dimensional data.
-
+```
 Getting Started
----------------
+
 
 1. Clone the repository: `git clone <repository-url>`
 2. Install the required dependencies: `pip install -r requirements.txt`
@@ -209,24 +209,14 @@ Getting Started
 4. Customize and adapt the code for your specific data and visualization needs.
 
 Contributing
-------------
+
 
 Contributions to this repository are welcome! If you have any new visualization techniques to add or improvements to the existing ones, feel free to submit a pull request.
 
 License
--------
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-Acknowledgments
----------------
 
-The examples and code snippets in this repository are inspired by various online tutorials, documentation, and community contributions. We acknowledge the original authors and contributors for their valuable work in the field of data visualization.
-
-Contact
--------
-
-For any questions or inquiries, please contact [email protected]
 
 Happy visualizing!
 
