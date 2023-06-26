@@ -805,6 +805,7 @@ License
 This project is licensed under the [MIT License](LICENSE).
 
 
+# N13|Amazon stocks|PyTorch|LSTM|Neural Network | Version 6 :
 
 
 
