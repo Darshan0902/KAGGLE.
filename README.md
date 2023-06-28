@@ -626,7 +626,7 @@ California Housing Price Prediction
 
 This project aims to predict housing prices in different neighborhoods of California using machine learning algorithms. The dataset provides information on various attributes related to housing, such as longitude, latitude, housing median age, total rooms, total bedrooms, population, households, median income, median house value, and ocean proximity.
 
-## Table of Contents
+Table of Contents
 
 - Importing Libraries
 - Frequency Distribution for Categorical Columns
