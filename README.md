@@ -619,6 +619,8 @@ important variances should be retained by the remaining eigenvectors.
 
 # N10| Analysis on alcohol consumption by students. | Version 4 : 
 
+https://www.kaggle.com/code/darshanprabhu09/n10-analysis-on-alcohol-consumption-by-students
+
 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
 
