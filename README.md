@@ -1,7 +1,7 @@
 # **KAGGLE**.
 All or most of projects I have uploaded on Kaggle are gonna be here.
 
-YOU CAN CHECK OUT MY KAGGLE AT : 
+EYOU CAN CHECK OUT MY KAGGLE AT : 
 
 ```
 
@@ -620,6 +620,262 @@ important variances should be retained by the remaining eigenvectors.
 # N10| Analysis on alcohol consumption by students. | Version 4 : 
 
 https://www.kaggle.com/code/darshanprabhu09/n10-analysis-on-alcohol-consumption-by-students
+
+
+California Housing Price Prediction
+
+This project aims to predict housing prices in different neighborhoods of California using machine learning algorithms. The dataset provides information on various attributes related to housing, such as longitude, latitude, housing median age, total rooms, total bedrooms, population, households, median income, median house value, and ocean proximity.
+
+## Table of Contents
+
+- Importing Libraries
+- Frequency Distribution for Categorical Columns
+- Correlation Analysis
+- Gender-Based Analysis
+- Count Plot of Schools
+- Count Plot of Sex
+- Box Plot of Age
+- Count Plot of Family Size
+- Count Plot of Parent's Cohabitation Status
+- Count Plot of Mother's Education Level
+- Count Plot of Father's Education Level
+- Count Plot of Travel Time
+- Count Plot of Failures
+- Summary Statistics for Numerical Columns
+- Correlation Heatmap
+- Distribution of Age
+- Average Mother's Education Level by Family Size
+- Sex Count and Percentage
+- Cross-Tabulation
+- Box Plot - Mother's Education Level
+- Violin Plot - Age by Sex
+- Logistic Regression
+- Decision Tree Classifier
+- Conclusion
+
+1 - Importing Libraries.
+```
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Read the data into a DataFrame
+data = pd.read_csv('/kaggle/input/student-alcohol-consumption/student-alcohol-consumption.csv')
+```
+
+2 - Frequency Distribution for Categorical Columns
+```
+numeric_columns = ['age', 'Medu', 'Fedu', 'traveltime', 'failures']
+categorical_columns = ['school', 'sex', 'famsize', 'Pstatus']
+# Frequency distribution for categorical columns
+for column in categorical_columns:
+    freq_dist = data[column].value_counts()
+    print(f"\nFrequency Distribution for {column}:")
+    print(freq_dist)
+```
+
+3 - Correlation Analysis
+```
+# Correlation Analysis
+corr_matrix = data[numeric_columns].corr()
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
+plt.title('Correlation Matrix')
+plt.show()
+
+correlation = data[['Medu', 'Fedu']].corr()
+print(correlation)
+```
+
+4 - Gender-Based Analysis
+```
+# Gender-Based Analysis
+gender_grades = data.groupby('sex')['failures'].mean()
+print("\nAverage Grades by Gender:")
+print(gender_grades)
+```
+
+5 - Count Plot of Schools
+```
+# Count plot of schools
+sns.countplot(data=data, x='school')
+plt.title('Count Plot of Schools')
+plt.show()
+```
+
+6 - Count Plot of Sex
+```
+# Count plot of sex
+sns.countplot(data=data, x='sex')
+plt.title('Count Plot of Sex')
+plt.show()
+```
+
+7 - Box Plot of Age
+```
+# Box plot of age
+sns.boxplot(data=data, x='age')
+plt.title('Box Plot of Age')
+plt.show()
+```
+
+8 - Count Plot of Family Size
+```
+# Count plot of family size
+sns.countplot(data=data, x='famsize')
+plt.title('Count Plot of Family Size')
+plt.show()
+```
+
+9 - Count Plot of Parent's Cohabitation Status
+```
+# Count plot of parent's cohabitation status
+sns.countplot(data=data, x='Pstatus')
+plt.title("Count Plot of Parent's Cohabitation Status")
+plt.show()
+```
+
+10 - Count Plot of Mother's Education Level
+```
+# Count plot of mother's education level
+sns.countplot(data=data, x='Medu')
+plt.title("Count Plot of Mother's Education Level")
+plt.show()
+```
+
+11 - Count Plot of Father's Education Level
+```
+# Count
+
+ plot of father's education level
+sns.countplot(data=data, x='Fedu')
+plt.title("Count Plot of Father's Education Level")
+plt.show()
+```
+
+12 - Count Plot of Travel Time
+```
+# Count plot of travel time
+sns.countplot(data=data, x='traveltime')
+plt.title('Count Plot of Travel Time')
+plt.show()
+```
+
+13 - Count Plot of Failures
+```
+# Count plot of failures
+sns.countplot(data=data, x='failures')
+plt.title('Count Plot of Failures')
+plt.show()
+```
+
+14 - Summary Statistics for Numerical Columns
+```
+numerical_columns = ['age', 'Medu', 'Fedu', 'traveltime', 'failures']
+numerical_summary = data[numerical_columns].describe()
+print(numerical_summary)
+```
+
+15 - Correlation Heatmap
+```
+correlation_matrix = data[numerical_columns].corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Correlation Heatmap')
+plt.show()
+```
+
+16 - Distribution of Age
+```
+sns.histplot(data=data, x='age', bins=10)
+plt.title('Distribution of Age')
+plt.show()
+```
+
+17 - Average Mother's Education Level by Family Size
+```
+sns.barplot(data=data, x='famsize', y='Medu')
+plt.title("Average Mother's Education Level by Family Size")
+plt.show()
+```
+
+18 - Sex Count and Percentage
+```
+sex_count = data['sex'].value_counts()
+sex_percentage = data['sex'].value_counts(normalize=True) * 100
+print("Sex Count:\n", sex_count)
+print("\nSex Percentage:\n", sex_percentage)
+```
+
+19 - Cross-Tabulation
+```
+cross_tab = pd.crosstab(data['sex'], data['Pstatus'])
+print(cross_tab)
+```
+
+20 - Box Plot - Mother's Education Level
+```
+sns.boxplot(data=data, x='Medu')
+plt.title("Box Plot - Mother's Education Level")
+plt.show()
+```
+
+21 - Violin Plot - Age by Sex
+```
+sns.violinplot(data=data, x='sex', y='age')
+plt.title("Violin Plot - Age by Sex")
+plt.show()
+```
+
+22 - Logistic Regression
+```
+import pandas as pd
+import statsmodels.api as sm
+
+# Load the dataset
+data = pd.read_csv('/kaggle/input/student-alcohol-consumption/student-alcohol-consumption.csv')
+
+# Convert 'failures' to binary format (0 or 1)
+data['failures'] = data['failures'].apply(lambda x: 0 if x == 0 else 1)
+
+# Convert categorical variables to dummy variables
+categorical_vars = ['school', 'sex', 'famsize', 'Pstatus']
+data = pd.get_dummies(data, columns=categorical_vars, drop_first=True)
+
+# Define the predictors and target variable
+X = data[['age', 'Medu', 'Fedu', 'traveltime']]
+X = sm.add_constant(X)
+y = data['failures']
+
+# Perform logistic regression
+model = sm.Logit(y, X)
+result = model.fit()
+print(result.summary())
+```
+
+23 - Decision Tree Classifier
+```
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+X = data[['age', 'Medu', 'Fedu', 'traveltime']]
+y = data['failures']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = DecisionTreeClassifier()
+model
+
+.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
+```
+
+24 - Conclusion
+In this analysis, we explored various aspects of the student alcohol consumption dataset. We started by importing the necessary libraries and loading the data. Then, we performed frequency distribution analysis for categorical columns and correlation analysis for numerical columns. We also conducted gender-based analysis and visualized the data using count plots, box plots, and violin plots. Additionally, we calculated summary statistics, created a correlation heatmap, and examined the distribution of age. Finally, we applied logistic regression and decision tree classification models to predict student failures.
+
+Overall, this analysis provides insights into the factors that may influence student alcohol consumption and academic performance. Further analysis and modeling can be conducted to explore these relationships in more detail.
 
 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
