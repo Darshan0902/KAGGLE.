@@ -612,8 +612,12 @@ Compute the eigenvectors of this matrix.
 Eigenvectors corresponding to the largest eigenvalues are used to reconstruct a large
 fraction of variance of the original data.Hence, we are left with a lesser number of 
 eigenvectors, and there might have been some data loss in the process. But, the most 
-important variances should be retained by the remaining eigenvectors. 
+important variances should be retained by the remaining eigenvectors.
+
 ```
+
+
+# N10| Analysis on alcohol consumption by students. | Version 4 : 
 
 
 # N11 | Feature engineering | PCA | dimensioniality Reduction | PCA : 
