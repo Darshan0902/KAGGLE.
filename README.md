@@ -14,7 +14,6 @@ https://www.kaggle.com/darshanprabhu09
 
 ![Darshan0902](https://road-to-kaggle-grandmaster.vercel.app/api/simple/darshanprabhu09)
 
-[![](https://visitcount.itsvg.in/api?id=Darshan0902&label=Profile%20visits%20%3A&color=11&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
 # N1 | Cracking the Code of Accuracy| Unveiling MSE , MAE , RMSE :
 
