@@ -1,7 +1,7 @@
 # **KAGGLE**.
 All or most of projects I have uploaded on Kaggle are gonna be here.
 
-EYOU CAN CHECK OUT MY KAGGLE AT : 
+YOU CAN CHECK OUT MY KAGGLE AT : 
 
 ```
 
