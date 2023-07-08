@@ -12,7 +12,6 @@ https://www.kaggle.com/darshanprabhu09
 ![notebook](https://road-to-kaggle-grandmaster.vercel.app/api/badges/darshanprabhu09/notebook)
 ![discussion](https://road-to-kaggle-grandmaster.vercel.app/api/badges/darshanprabhu09/discussion)
 
-![Darshan0902](https://road-to-kaggle-grandmaster.vercel.app/api/simple/darshanprabhu09)
 
 
 # N1 | Cracking the Code of Accuracy| Unveiling MSE , MAE , RMSE :
