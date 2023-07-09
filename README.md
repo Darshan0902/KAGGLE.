@@ -499,7 +499,9 @@ Replace `'column_name'` with the actual column name and adjust the `bins` and `l
 
 ---
 
+# N7|SKlearn Pipeline models|Prediction|Modelling. | Version 8 : 
 
+https://www.kaggle.com/code/darshanprabhu09/n7-sklearn-pipeline-models-prediction-modelling
 
 # N8|Kernels Unveil the Future of Drug | CHEMISTRY. | Version 4 : 
 
